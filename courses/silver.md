@@ -1,22 +1,32 @@
 ---
 layout: page
-title: Ruby Certification Silver 2.1
+title: Notes for Ruby Certification Silver 2.1
 ---
 
 ## Syntax
+### Comments
+
+| **Single Line** | # comment |
+| **Multi Line** | no multiline |
+| **Embedded Docs** | =begin Documentation =end |
+| **Here Docs** | string = <<-HTML documentation HTML [˜, -] |
+
+### Literals
+
+
 ### Keywords (41)
 
 They Have a special meaning to the Ruby parser. However, they
 can be appended with @, @@ and $.
 
-| **IDENTIFIER** | `_LINE_` | `_ENCODING_` | `_FILE_` |
 | **CONDITIONAL** | if | then | else | end |
 || case | when | elsif | unless |
 | **OPERATORS** | and | or | not |
 | **LOOPS**  | for | while | do | break |
 || in | next | redo | retry |
 || until | return |
-| **DATATYPES**  | true  | false | nil |
+| **LITERALS**  | true  | false | nil |  `_LINE_` |
+|| `_ENCODING_` | `_FILE_` |
 | **CONSTRUCTS**  | class  | def | defined? | module |
 || self | super | undef | alias |
 | **BLOCKS** | BEGIN | END | begin | end |
