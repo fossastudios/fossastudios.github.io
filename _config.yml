@@ -20,7 +20,10 @@
 
 title: Fossa Studios
 email: contactus@fossastudios.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
+  our_products = [Art Science Engineering Technology].fuse
+
+
   © 2022 fossastudios.com.
 domain: fossastudios.com
 baseurl: / # the subpath of your site, e.g. /blog
